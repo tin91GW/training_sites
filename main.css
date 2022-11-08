@@ -1,0 +1,65 @@
+.main-container {
+    width: auto;
+    height: 100vh;
+    padding: 30px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.browser-name-section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.browser-logo {
+    background: url("chrome://branding/content/about-logo.png") no-repeat center;
+    background-size: auto;
+    background-size: 82px;
+    height: 82px;
+    width: 82px;
+}
+
+.browser-name {
+    background: url("chrome://branding/content/firefox-wordmark.svg") no-repeat center center;
+    background-size: auto;
+    margin-left: 0px;
+    height: 82px;
+    width: 200px;
+
+}
+
+.search-area {
+    width: 720px;
+    min-height: 52px;
+    display: flex;
+    cursor: default;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 50px -22px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 5px 5px 50px -22px rgba(66, 68, 90, 1);
+    box-shadow: 5px 5px 50px -22px rgba(66, 68, 90, 1);
+    border-radius: 14px;
+}
+
+
+
+.search-input {
+    width: 100%;
+    background: url("/my_copied_site/pic/google-icon.png") left no-repeat;
+    background-position: 20px;
+    background-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding-left: 60px;
+    border-radius: 14px;
+}
+
+.search-input:focus{
+    outline: 2px solid rgba(21, 52, 158, 0.5);
+    border: 1px solid rgb(21, 52, 158);
+}
