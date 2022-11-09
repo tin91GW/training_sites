@@ -1,0 +1,129 @@
+.main-container {
+    width: auto;
+    height: 100vh;
+    padding: 30px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.browser-name-section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.browser-logo {
+    background: url("chrome://branding/content/about-logo.png") no-repeat center;
+    background-size: auto;
+    background-size: 82px;
+    height: 82px;
+    width: 82px;
+}
+
+.browser-name {
+    background: url("chrome://branding/content/firefox-wordmark.svg") no-repeat center center;
+    background-size: auto;
+    margin-left: 0px;
+    height: 82px;
+    width: 200px;
+
+}
+
+.search-area {
+    width: 720px;
+    min-height: 52px;
+    display: flex;
+    cursor: default;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 50px -22px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 5px 5px 50px -22px rgba(66, 68, 90, 1);
+    box-shadow: 5px 5px 50px -22px rgba(66, 68, 90, 1);
+    border-radius: 14px;
+}
+
+
+
+.search-input {
+    width: 100%;
+    background: url("/my_copied_site/pic/google-icon.png") left no-repeat;
+    background-position: 20px;
+    background-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding-left: 60px;
+    border-radius: 14px;
+}
+
+.search-input:focus{
+    outline: 2px solid rgba(21, 52, 158, 0.5);
+    border: 1px solid rgb(21, 52, 158);
+}
+
+.page-info {
+    width: 120px;
+    height: 143px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.page-info:hover {
+    background-color: rgb(233, 229, 224);
+}
+
+.page-info a  {
+    width: 88px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+
+.page-info a div  {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 15px 35px -20px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 15px 35px -20px rgba(66, 68, 90, 1);
+    box-shadow: 0px 15px 35px -20px rgba(66, 68, 90, 1);
+    margin-bottom: 10px;
+}
+
+.page-info a div img {
+    width: 48px;
+    height: 48px;
+}
+
+.dots-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    background-image: url("/my_copied_site/pic/dots-icon.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    -moz-context-properties: fill;
+    margin-top: 2px;
+    margin-right: 10px;
+    opacity: 0;
+}
+
+.page-info:hover .dots-icon {
+    opacity: 1;
+}
